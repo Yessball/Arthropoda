@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel+Decorative:wght@400;700;900&family=GFS+Neohellenic:ital,wght@0,400;0,700; 1,400;1,700&family=Honk&family=Nanum+Myeongjo&family=News+Cycle:wght@400;700&family=Playfair+Display:ital,wght@0,600;1,600&family=Rye&family=Sevillana&family=Train+One&family=Wix+Madefor+Display:wght@ 400..800&display=intercambio');
 
 body {
   position: relative;
@@ -29,9 +28,11 @@ a:active {
 
 h1 {
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif !important;
   font-optical-sizing: auto;
-  font-size: 600;
+  font-weight: 500 !important;
+  font-size: 45px !important;
+  font-style:normal;
 }
 h2 {
   text-align: center;
@@ -60,6 +61,10 @@ p {
   padding-bottom: 3%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.container {
+  display: flex;
 }
 
 footer {
@@ -99,7 +104,7 @@ footer .ul-inline li a {
 
 footer .wave {
   position:absolute;
-  top: 10px;
+  top: 25px;
   left: 0;
   width: 100%;
   height: 70%;
