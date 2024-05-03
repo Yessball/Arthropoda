@@ -25,6 +25,19 @@ a:active {
   color: #cdfcd9;
 }
 
+.a-list:focus {
+  background: none;
+  color: black;
+}
+.a-list:active {
+  background: none;
+}
+.a-list:hover {
+  background:#fbfd99;
+}
+.a-list {
+  color: rgb(70, 69, 69);
+}
 .img-logo {
   margin-top: 30px;
   margin-left: 15px;
@@ -38,10 +51,17 @@ h1 {
   font-size: 45px !important;
   font-style:normal;
 }
+
+.title1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 h2 {
   text-align: center;
   font-size: 30px;
   padding-bottom: 3%;
+  font-family: 'Nanum Myeongio', serif !important;
 }
 
 .navbar-collapse {
@@ -50,10 +70,6 @@ h2 {
 
 .navbar {
   background: radial-gradient(circle at 10% 20%, rgb(253, 239, 132) 0%, rgb(247, 198, 169) 54.2%, rgb(21, 186, 196) 100.3%);
-}
-.container {
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .carousel-inner img {
@@ -76,6 +92,15 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  max-height: 160px;
+}
+
+.row {
+  padding-bottom: 7%;
+}
+
+.a-list {
+  text-decoration: none;
 }
 
 footer {
