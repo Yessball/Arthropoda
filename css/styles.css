@@ -95,6 +95,10 @@ p {
   max-height: 160px;
 }
 
+.card-text {
+  text-align: left;
+}
+
 .row {
   padding-bottom: 7%;
 }
